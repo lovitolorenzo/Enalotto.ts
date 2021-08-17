@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superenalotto</title>
+    <style>
+        .ruota {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .nazione {
+            color: red;
+            border-top: 1px solid #ccc;
+        }
+
+        .main{
+            font-family:  sans-serif;
+            max-width: 700px;
+            width: 90%;
+            margin: auto;
+        }
+
+        h2.ruota-title {
+            width: 150px;
+        }
+
+        .ruota-estrazione {
+            background-color: rgb(110, 110, 226);
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            text-align: center;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            color: white;
+        }
+
+        .ruota-estrazione > p {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Estrazioni Enalotto</h1>
+        <div id="cnt"></div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
